@@ -1,13 +1,13 @@
-![logo](https://github.com/sahilatahar/Code-Sync/assets/100127570/d1ff7f52-a692-4d51-b281-358aeab9156e)
+# CollabVoice
 
 A collaborative, real-time code editor where users can seamlessly code together. It provides a platform for multiple users to enter a room, share a unique room ID, and collaborate on code simultaneously.
 
-![GitHub contributors](https://img.shields.io/github/contributors/sahilatahar/Code-Sync?style=for-the-badge&color=48bf21)
-![GitHub Repo stars](https://img.shields.io/github/stars/sahilatahar/Code-Sync?style=for-the-badge)
-![GitHub issues](https://img.shields.io/github/issues/sahilatahar/Code-Sync?style=for-the-badge&color=d7af2d)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/sahilatahar/Code-Sync?style=for-the-badge&color=f47373)
-![GitHub License](https://img.shields.io/github/license/sahilatahar/Code-Sync?style=for-the-badge&color=e67234)
-![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fsahilatahar%2FCode-Sync&label=Repo%20Views&countColor=%2337d67a&labelStyle=upper)
+![GitHub contributors](https://img.shields.io/github/contributors/ashutosh-engineer/CollabVoice?style=for-the-badge&color=48bf21)
+![GitHub Repo stars](https://img.shields.io/github/stars/ashutosh-engineer/CollabVoice?style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues/ashutosh-engineer/CollabVoice?style=for-the-badge&color=d7af2d)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/ashutosh-engineer/CollabVoice?style=for-the-badge&color=f47373)
+![GitHub License](https://img.shields.io/github/license/ashutosh-engineer/CollabVoice?style=for-the-badge&color=e67234)
+![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fashutosh-engineer%2FCollabVoice&label=Repo%20Views&countColor=%2337d67a&labelStyle=upper)
 
 ## 🔮 Features
 
@@ -32,7 +32,7 @@ A collaborative, real-time code editor where users can seamlessly code together.
 
 ## 🚀 Live Preview
 
-You can view the live preview of the project [here](https://code-sync-live.vercel.app/).
+You can view the live preview of the project [here](https://github.com/ashutosh-engineer/CollabVoice).
 
 ## 💻 Tech Stack
 
@@ -55,7 +55,7 @@ You can view the live preview of the project [here](https://code-sync-live.verce
 1. **Fork this repository:** Click the Fork button located in the top-right corner of this page.
 2. **Clone the repository:**
    ```bash
-   git clone https://github.com/<your-username>/Code-Sync.git
+   git clone https://github.com/ashutosh-engineer/CollabVoice.git
    ```
 3. **Create .env file:**
    Inside the client and server directories create `.env` and set:
@@ -107,20 +107,20 @@ You can view the live preview of the project [here](https://code-sync-live.verce
 
    ```bash
    # Pull Backend Image
-   docker pull sahilatahar/code-sync-server:latest
+   docker pull ashutosh-engineer/collabvoice-server:latest
 
    # Pull Frontend Image
-   docker pull sahilatahar/code-sync-client:latest
+   docker pull ashutosh-engineer/collabvoice-client:latest
    ```
 
 3. **Run Docker Containers:**
 
    ```bash
    # Run Backend Container (Port 3000)
-   docker run -d -p 3000:3000 --name code-sync-server sahilatahar/code-sync-server:latest
+   docker run -d -p 3000:3000 --name collabvoice-server ashutosh-engineer/collabvoice-server:latest
 
    # Run Frontend Container (Port 5173)
-   docker run -d -p 5173:5173 --name code-sync-client sahilatahar/code-sync-client:latest
+   docker run -d -p 5173:5173 --name collabvoice-client ashutosh-engineer/collabvoice-client:latest
    ```
 
 4. **Access the application:**
@@ -134,7 +134,7 @@ You can view the live preview of the project [here](https://code-sync-live.verce
 
 ## 🤝 Contribute
 
-We welcome contributions to make Code Sync even better! Follow the [contribution guidelines](CONTRIBUTING.md) to get started.
+We welcome contributions to make CollabVoice even better! Follow the [contribution guidelines](CONTRIBUTING.md) to get started.
 
 ## 🌟 Support Us
 
@@ -167,18 +167,18 @@ Special thanks to:
   <tbody>
     <tr>
       <td align="center" valign="top">
-        <img src="https://github.com/sahilatahar.png" width="120px;" alt="Sahil Atahar"/>
+        <img src="https://github.com/ashutosh-engineer.png" width="120px;" alt="Ashutosh"/>
         <br />
-        <b>Sahil Atahar</b>
+        <b>Ashutosh</b>
       </td>
     </tr>
     <tr>
         <td align="center">
-            <a href="https://github.com/sahilatahar">
+            <a href="https://github.com/ashutosh-engineer">
             <img src="https://img.shields.io/badge/GitHub-100000.svg?style=for-the-badge&logo=github&logoColor=white"/>
             </a>
             <br/>
-            <a href="https://linkedin.com/in/sahilatahar">
+            <a href="https://www.linkedin.com/in/ashutosh-singh-7945812b2/">
             <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/>
             </a>
         </td>
@@ -188,8 +188,8 @@ Special thanks to:
 
 ## 👥 Collaborators
 
-<a href="https://github.com/sahilatahar/Code-Sync/graphs/contributors">
-   <img src="https://contrib.rocks/image?repo=sahilatahar/Code-Sync" />
+<a href="https://github.com/ashutosh-engineer/CollabVoice/graphs/contributors">
+   <img src="https://contrib.rocks/image?repo=ashutosh-engineer/CollabVoice" />
 </a>
 
 
